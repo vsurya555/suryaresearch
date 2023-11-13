@@ -1,0 +1,199 @@
+<body>
+    <div class="pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="products-section-heading mb-3">Our products</h1>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="products-card headphones-bg-container d-flex flex-column justify-content-end mb-3">
+                        <h1 class="products-card-title">Smart headphones</h1>
+                        <p class="products-card-description">
+                            headphones with Deep Bass,sound touch............
+                        </p>
+                        <div>
+                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#smartHeadphonesModel">View Details</button>
+                            <div class="modal fade" id="smartHeadphonesModel" tabindex="-1" aria-labelledby="examplemodalLabel" aria-hidden="true">
+                                <div class="modal-dialog mt-5">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title products-card-modal-title" id="examcard-modal-plemodalLabel"> Sony WH-100XMM4 Noise cancelling headpones</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="products-card-modal-description">
+                                                Get the smartHeadphones Model art prices online in India.
+                                                Select from the Best range of the earpods from the most popular brands....
+                                            </p>
+                                            <ul class="products-card-modal-list">
+                                                <li class="products-card-modal-list-item">
+                                                    <span class="products-card-modal-list-item-category">Voice assistance: </span> Alexa, Google Assistance & siri
+                                                </li>
+                                                <li class="products-card-modal-list-item">
+                                                    <span class="products-card-modal-list-item-category">Smart listening:</span> Ambient sound with the best noise cancellation
+                                                </li>
+                                                <li class="products-card-modal-list-item">
+                                                    <span class="products-card-modal-list-item-category">Long battery life:</span> A single charge provides 30hrs of playtime
+                                                </li>
+                                                <li class="products-card-modal-list-item">
+                                                    <span class="products-card-modal-list-item-category">Quick charging:</span> charge for 10 min for 5hrs playback
+                                                </li>
+                                                <li class="products-card-modal-list-item">
+                                                    <span class="products-card-modal-list-item-category">Touch Controls:</span> change the track with your fingertips
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-dark" data-dismiss="modal">BUY NOW</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="products-card laptop-bg-container d-flex flex-column justify-content-end mb-3">
+                        <h1 class="products-card-title">Laptops</h1>
+                        <p class="products-card-description">
+                            EXplore vast selection of Laptops......
+                        </p>
+                        <div>
+                            <button type="button" class="products-card-button" data-toggle="modal" data-target="#laptopsmodal">View Details</button>
+                            <div class="modal fade" id="laptopsmodal" tabindex="-1" aria-labelledby="examplemodalLabel" aria-hidden="true">
+                                <div class="modal-dialog mt-5">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title products-card-modal-title" id="examplemodalLabel">
+                                                Inspiron 14 5490 core i5 Generation Laptop
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p class="products-card-description">
+                                                Get Best Laptop prices onLine in India.Select from the best range of the laptops from most popular brands.....
+                                            </p>
+                                            <ul class="products-card-modal-list">
+                                                <li class="products-card-modal-list-item">
+                                                    <span class="products-card-modal-list-item-category">Performance:</span> core i5 3rd Gen, 2.6 Ghz, 4 GB RAM
+                                                </li>
+                                                <li class="products-card-modal-list-item"><span class="products-card-modal-list-item-category">Storage:</span> 500 GB HDD,SATA,7200 RPM</li>
+                                                <li class="products-card-modal-list-item"><span class="products-card-modal-list-item-category">BAttery:</span> Li-ion, 6 cell </li>
+                                                <li class="products-card-modal-list-item">
+                                                    <span class="products-card-modal-list-item-category">Design:</span> 14.0 Inches, 1366 x 768, 2.07 kg, 34Mm
+                                                    Thick
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-outline-dark" data-dismiss="modal">
+                                                BUY NOW
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 d-flex flex-row justify-content-end">
+                    <a class="products-section-link" href="">
+                        See All the Offers
+                        <svg width="1em" height="1em" ViewBox="0  0  16 16" class="bi bi-arrow-right-short" fill="currentcolor" xmlns="https://www.w3.org/2000/svg">
+                            <path fil-rule="evenodd" d="M4 8a.5.5 0 0 1 .5- .5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+CSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSCSSSSSSSSSSSSSS
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.products-section-heading {
+    color: #183b56;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.products-card {
+    height: 328px;
+    padding: 20px;
+    border-radius: 16px;
+}
+
+.headphones-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-headphones-bg.png");
+    background-size: cover;
+}
+
+.laptop-bg-container {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/ecommerce-products-laptops-bg.png");
+    background-size: cover;
+}
+
+.products-card-title {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.products-card-description {
+    color: #ffffff;
+    font-family: "Roboto";
+    font-size: 19px;
+}
+
+.products-card-button {
+    color: #ff9f00;
+    background-color: #ffffff;
+    font-family: "Roboto";
+    font-size: 18px;
+    width: 134px;
+    height: 48px;
+    border-width: 0;
+    border-radius: 100px;
+}
+
+.products-card-modal-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.products-card-modal-description {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.products-card-modal-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.products-card-modal-list-item {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+.products-card-modal-list-item-category {
+    font-weight: bold;
+}
+
+.products-section-link {
+    color: #ff9f00;
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 700;
+}

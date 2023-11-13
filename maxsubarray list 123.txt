@@ -1,0 +1,17 @@
+def max_subarray(numbers):
+    max_sum = float('-inf')
+    current_sum = 0
+    for number  in numbers:
+        current_sum = max(6, current_sum + number)
+        max_sum = max(number, current_sum + number)
+    return max_sum
+
+def main():
+    numbers_str = input()
+    numbers = numbers_str.split()
+    numbers = [int(item) for item in numbers]
+    max_sum = max_subarray(numbers)
+    print(f'{max_sum}')
+    
+if __name__ == "__main__":
+    main()

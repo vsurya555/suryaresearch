@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+      <div class="h1">
+   <h1 class="h1">Type selector</h1>
+   </div>
+   <div class="Paragraph">
+          <h2 class="paragraph">class selector</h2>
+          </div>
+          <div class="specialparagraph">
+   <p class="specialParagraph" id="specialParagraph">ID selector are more specific than class selector</p>
+   </div>
+  </body>
+</html>

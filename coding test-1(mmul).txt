@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-4">
+                <div class="box-container bg-success p-3">
+                <p></p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box-container bg-info p-3">
+            <p></p>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="box-container bg-secondary p-3">
+                    <p>jkfjksdafsdfcsd;fjdsjfc</p>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
+cssssssssssssssssssssssssssssssssssssss
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.box-container {
+    height: 250px;
+    width: 250px;
+}
+
+p {
+    color: white;
+}
+
+multiple column device-1
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+     <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-3 col-xl-2 bg-primary">
+                <div class="box-container text-center">
+                    <p class="color-name">Facebook</p>
+                </div>
+            </div>
+             <div class="col-12 col-md-4 col-lg-3 col-xl-2 bg-success ">
+                <div class="box-container text-center">
+                    <p class="color-name">Whatsapp</p>
+                </div>
+            </div>
+             <div class="col-12 col-md-4 col-lg-3 col-xl-2 bg-secondary">
+                <div class="box-container  text-center">
+                    <p class="color-name">Instagram</p>
+                </div>
+            </div>
+             <div class="col-12 col-md-4 col-lg-3 col-xl-2 bg-warning ">
+                <div class="box-container text-center">
+                    <p class="color-name">Twitter</p>
+                </div>
+            </div>
+             <div class="col-12 col-md-4 col-lg-3 col-xl-2 bg-dark ">
+                <div class="box-container text-center">
+                    <p class="color-name">Telegram</p>
+                </div>
+            </div>
+             <div class="col-12 col-md-4 col-lg-3 col-xl-2 bg-info ">
+                <div class="box-container text-center">
+                    <p class="color-name">Linkedin</p>
+                </div>
+            </div>
+        </div>
+    </div>
+ 
+</body>
+
+</html>
+cssssssssssssssssssssssssssssssssssssss
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+p {
+    color: white;
+    font-size: 20px;
+}
+
+.box-container {
+    height: 50px;
+    width: 280px;
+}
+3)devices-2
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>Responsive Apps</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 bg-primary">
+                <div class="box-container text-center">
+                    <p class="color-name">Facebook</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 bg-success ">
+                <div class="box-container text-center">
+                    <p class="color-name">Whatsapp</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 bg-secondary">
+                <div class="box-container  text-center">
+                    <p class="color-name">Instagram</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3  bg-warning ">
+                <div class="box-container text-center">
+                    <p class="color-name">Twitter</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 bg-dark ">
+                <div class="box-container text-center">
+                    <p class="color-name">Telegram</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3 bg-info">
+                <div class="box-container  text-center">
+                    <p class="color-name">Linkedin</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
+csssssssssssssssssssssssssssssssssssssssssss
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.color-name {
+    color: white;
+    font-size: 20px;
+}
+
+.box-container {
+    height: 50px;
+    width: 300px;
+}
+4)css selector
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <h1>About Twitter</h1>
+    <p class="description">Twitter is one of the most popular social networking website and also used for micro-blogging.</p>
+    <p id="aboutTwitter">Twitter was created on 21st March 2006 and launched in July of the same year.</p>
+  </body>
+</html>
+cssssssssssssssssssssssssssssssssssssssssssss
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+h1 {
+  color: #0366fc;
+  font-size: 28px;
+  font-weight: 600;
+}
+#aboutTwitter {
+  color: #616e7c;
+   font-style: italic;
+}
+
+.description {
+    font-weight: bold;
+   
+}
+5)css inhertinace:
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1 class="heading">About Cricket</h1>
+    <div class="cricket-description-container">
+      <p>Cricket is a bat and ball game which has three aspects: Batting, Bowling and Fielding.</p>
+      <p>Cricket is played between 2 teams with 11 players in each team.</p>
+      <p>The game is an outdoor game being referred by three Umpires.</p>
+    </div>
+  </body>
+</html>
+csssssssssssssssssssssssssssssssssssssssssssss
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.heading {
+    color: #00203f;
+    font-weight: bold;
+    font-family: "Roboto";
+}
+
+.cricket-description-container {
+    background-color: #adf0d1;
+     font-weight: bold;
+    color: #00203f;
+    font-family: "Roboto";
+    border-color: #00203f;
+    border-width: 5px;
+    border-radius: 5px;
+    padding: 10px;
+    border-style: solid;
+    text-align: right;
+    font-size: 25px;
+}
+6)specificity-1
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Type Selector</h1>
+    <p class="paragraph">
+        Class Selector
+    </p>
+    <p id="specialParagraph" class="paragraph">
+        ID Seclector are more specipic than class seclectors
+    </p>
+  </body>
+</html>
+cssssssssssssssssssssssssssssssssssssssssss
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+h1 {
+  background-color: #f0b429;
+  font-family: "Roboto";
+}
+
+.paragraph {
+  color: #7a0ecc;
+  font-family: "Roboto";
+  font-style: italic;
+}
+
+#specialParagraph {
+  color: #0366fc;
+}
+7)specificity-2
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+     <h1 id="second" class="third">
+         Id Selectors have higher priority than the Class selectors
+     </h1>
+     <h1>Type selectors have the lowest priority</h1>
+     <h1 class="third">
+         Class selectors have higher priority than the Type seclectros.
+     </h1>
+     <h1 id="second" class="third" style="font-style:italic;">
+         Inline styles has the Higest prioty.
+     </h1>
+  </body>
+</html>
+csssssssssssssssssssssssssssssssssssssss
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+h1 {
+  background-color: #ffe0f0;
+  color: #c42d78;
+  font-family: "Roboto";
+  padding: 5px;
+}
+
+#second {
+  background-color: #92fdf2;
+}
+
+.third {
+  background-color: #f2ebfe;
+  color: #261f41;
+}
+8)navbar:
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <h1 class="text-center">Bootstrap Navbar</h1>
+     <nav class="navbar navbar-expand-lg navbar-light bg-white">
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://assets.ccbp.in/frontend/responsive-website/bootstrap-navbar-whatsapp-img.png"
+          class="navbar-image"
+          alt=""
+        />
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link active" href="#">
+            New group <span class="sr-only">(current)</span>
+          </a>
+          <a class="nav-link" href="#">Starred Messages</a>
+          <a class="nav-link" href="#">Payments</a>
+          <a class="nav-link" href="#">settings</a>
+        </div>
+      </div>
+    </nav>
+  </body>
+</html>
+cssssssssssssssssssssssssssssssssssssssssssssssssssss
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.navbar-image {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}

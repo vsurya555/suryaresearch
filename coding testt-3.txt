@@ -1,0 +1,312 @@
+1)sizing utility:
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <p class="bg-secondary text-white p-3 w-25">
+        width 25%
+    </p>
+    <p class="bg-primary text-white p-2 w-50">
+        width 50%
+    </p>
+    <p class="bg-success text-white p-2 w-75">
+        width 75%
+    </p>
+    <p class="bg-info text-white p-2 w-100">
+        width 100%
+    </p>
+  </body>
+</html>
+csssssssssssssssssssssssssssssssssssssssssssss
+
+
+2)flex utilities:
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="d-flex flex-column mt-4">
+        <div class="bg-info text-white order-0">
+            <p>Box1</p>
+        </div>
+        <div class="bg-warning text-white order-7">
+            <p>Box2</p>
+        </div>
+        <div class="bg-dark text-white order-1">
+            <p>Box3</p>
+        </div>
+        <div class="bg-primary text-white order-8">
+            <p>Box4</p>
+        </div>
+        <div class="bg-info text-white order-12">
+            <p>Box5</p>
+        </div>
+        <div class="bg-warning text-white order-2">
+            <p>Box6</p>
+        </div>
+        <div class="bg-dark text-white order-4">
+            <p>Box7</p>
+        </div>
+        <div class="bg-primary text-white order-6">
+            <p>Box8</p>
+        </div>
+        <div class="bg-info text-white order-9">
+            <p>Box9</p>
+        </div>
+        <div class="bg-warning text-white order-10">
+            <p>Box10</p>
+        </div>
+        <div class="bg-dark text-white order-11">
+            <p>Box11</p>
+        </div>
+        <div class="bg-secondary text-white order-5">
+            <p>Box12</p>
+        </div>
+        <div class="bg-primary text-white order-3">
+            <p>Box13</p>
+        </div>
+    </div>
+</body>
+
+</html>
+cssssssssssssssssssssssssssssssssssss
+
+3)display:
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="d-flex flex-column">
+      <div class="bg-info text-white d-none"><p>Box1</p></div>
+      <div class="bg-warning text-white"><p>Box2</p></div>
+      <div class="bg-dark text-white"><p>Box3</p></div>
+      <div class="bg-primary text-white"><p>Box4</p></div>
+      <div class="bg-info text-white d-none"><p>Box5</p></div>
+      <div class="bg-warning text-white"><p>Box6</p></div>
+      <div class="bg-dark text-white"><p>Box7</p></div>
+      <div class="bg-primary text-white"><p>Box8</p></div>
+      <div class="bg-info text-white d-none"><p>Box9</p></div>
+      <div class="bg-warning text-white"><p>Box10</p></div>
+      <div class="bg-dark text-white"><p>Box11</p></div>
+      <div class="bg-primary text-white d-none"><p>Box12</p></div>
+      <div class="bg-info text-white"><p>Box13</p></div>
+      <div class="bg-warning text-white"><p>Box14</p></div>
+      <div class="bg-dark text-white"><p>Box15</p></div>
+      <div class="bg-primary text-white"><p>Box16</p></div>
+      <div class="bg-info text-white"><p>Box17</p></div>
+      <div class="bg-warning text-white"><p>Box18</p></div>
+      <div class="bg-dark text-white d-none"><p>Box19</p></div>
+      <div class="bg-primary text-white"><p>Box20</p></div>
+    </div>
+  </body>
+</html>
+cssssssssssssssssssssssssssssssssssssssssss
+4)html hyperlink:
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container d-flex flex-column fixed-bottom">
+        <a href=" ">Home</a>
+        <a href=" ">Profile</a>
+        <a href=" ">Education</a>
+        <a href=" ">Projects</a>
+        <a href=" ">Contact</a>
+    </div>
+</body>
+
+</html>
+csssssssssssssssssssssssssssssssssssssssssss
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.container {
+    height: 100vh;
+}
+5)bootstrap modal:
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn-primary text-white" data-toggle="modal" data-target="#smartHeadphoneseModal">
+                            Click Here
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="smartHeadphoneseModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog mt-5">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title paragraph-1" id="exampleModalLabel">
+                                        Fact
+                                        </h1>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p class="paragraph-1">
+                                           What time is the evening?
+                                        </p>
+                                        <p class="paragraph-2">
+                                            The evening is from 5:01 PM to 8 PM or aroound Sunset
+                                        </p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                            Cancel
+                                        </button>
+                                        <button type="button" class="btn-primary" data-dismiss="model">
+                                            Download
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+  </body>
+</html>
+cssssssssssssssssssssssssssssssssss
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+.paragraph-1 {
+    font-weight: bold;
+    font-size: 20px;
+}
+7)css  linear:
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+   <div class="linear-gradient-background-with-more-colors">
+       <h1 class="text-white">
+           Without direction
+       </h1>
+   </div>
+   <div class="linear-gradient-background-with-more-colors-2">
+       <h1 class="text-white">
+           Without direction
+       </h1>
+   </div>
+   <div class="linear-gradient-background-with-more-colors-3">
+       <h1 class="text-white">
+           Without direction
+       </h1>
+   </div>
+   <div class="linear-gradient-background-with-more-colors-4">
+       <h1 class="text-white">
+           Without direction
+       </h1>
+   </div>
+   <div class="linear-gradient-background-with-more-colors-5">
+       <h1 class="text-white">
+           Without direction
+       </h1>
+   </div>
+</body>
+
+</html>
+cssssssssssssssssssssssssssssssssssssssssssssss
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.linear-gradient-background-with-more-colors {
+  height: 40vh;
+  width: 40vh;
+  background-image: linear-gradient(to top, #daa4ff, #ff8c88, #ffc169);
+}
+
+.linear-gradient-background-with-more-colors-2 {
+  height: 40vh;
+  width: 40vh;
+  background-image: linear-gradient(to bottom, #9e82b4, #8a2387, #e94057);
+}
+
+.linear-gradient-background-with-more-colors-3 {
+  height: 40vh;
+  width: 40vh;
+  background-image: linear-gradient(to left, #f27121, #7bbd36, #49b407);
+}
+
+.linear-gradient-background-with-more-colors-4 {
+  height: 40vh;
+  width: 40vh;
+  background-image: linear-gradient(to right, #fc3535, #826b7a, #87cdff);
+}
+
+.linear-gradient-background-with-more-colors-5 {
+  height: 40vh;
+  width: 40vh;
+  background-image: linear-gradient(#aa2bff, #ffa740, #4cc8ef);
+}
+
+8)raadial grad:
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="radial-gradient-background">
+        <h1 class="text-white">
+            Radial Gradient with Two colors
+        </h1>
+    </div>
+    <div class="container fixed-bottom">
+         <div class="radial-gradient-background-with-more-colors">
+        <h1 class="text-white">
+            Radial Gradient with more than Two colors
+        </h1>
+    </div>
+    </div>
+   
+</body>
+
+</html>
+csssssssssssssssssssssssssssssssssssssss
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.radial-gradient-background {
+  height: 40vh;
+  width: 40vh;
+  background-image: radial-gradient(#00c898, #020203);
+}
+
+.radial-gradient-background-with-more-colors {
+  height: 40vh;
+  width: 40vh;
+  background-image: radial-gradient(#bb64ff, #fd8941, #8a2387, #ff697e);
+}

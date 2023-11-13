@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+      
+    <h1 class="third" id="second">ID selector have higher priority than the Class selectors.</h1>
+    <h1>Type selectors have the lowest priority.</h1>
+    <h1 class="third">Class selector have higher priority than the Type selectors.</h1>
+    <h1 class="third" id="second">Inline styles has the highest priority</h1>
+  
+  </body>
+  
+</html>

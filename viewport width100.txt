@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <div class="contaainer">
+    <button class="button button-green">Width 25vw</button>
+    <button class="button button-blue">Width 50vw</button>
+    <button class="button button-orange">Width 75vw</button>
+    <button class="button button-red">Width 100vw</button>
+    </div>
+</body>
+
+</html>
+
+csssssssssssssssssssssssssssssssssssssssssss
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-heading {
+    background-color: #ffffff;
+    font-family: "Roboto";
+    color: white;
+}
+
+.button-green {
+    height: 20px;
+    width: 120px;
+  background-color: #5cb85c;
+  font-family: "Roboto";
+  color: white;
+}
+.button-orange {
+    height: 20px;
+    width: 250px;
+    font-family: "Roboto";
+  background-color: #f0ad4e;
+  color: white;
+}
+.button-blue{
+    height: 20px;
+    width: 190px;
+    font-family: "Roboto";
+    background-color:#5bc0de ;
+    color: white;
+}
+.button-red{
+    height: 20px;
+    width: 320px;
+    font-family: "Roboto";
+    background-color: #d9534f;
+    color: white;
+}
+.button {
+  border-width: 0px;
+  text-combine-upright: 2px;
+  margin: 10px;
+}

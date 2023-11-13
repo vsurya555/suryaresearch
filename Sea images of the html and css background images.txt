@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head></head>
+  <body>
+    <div class="div1">
+    <p>Sea</p>
+</div>
+<div class="div2">
+<p>Sea</p>
+</div>
+<div class="div3">
+<p>Sea</p>
+</div>
+  </body>
+</html>
+csssssssssssssssssssssssssssssssssssssssssssssssssssss
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.div1 {
+  text-align:center;
+  height: 190px;
+  width: 200px;
+  font-size: 20px;
+  font-family: "Roboto";
+  color: white;
+  background: url("https://assets.ccbp.in/frontend/static-website/beach-1-img.png");
+  background-size: cover;
+}
+
+.div2 {
+  text-align: center;
+  height: 200px;
+  width: 250px;
+  color: white;
+  font-family: "Roboto";
+  font-size: 20px;
+  background: url("https://assets.ccbp.in/frontend/static-website/beach-2-img.png");
+  background-size: cover;
+}
+
+.div3 {                                  
+    text-align: center;
+  height: 200px;
+  width: 300px;
+  font-family: "Roboto";
+  font-size: 20px;
+  color: white;
+  background: url("https://assets.ccbp.in/frontend/static-website/beach-3-img.png");
+  background-size: cover;
+}

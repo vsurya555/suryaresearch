@@ -1,0 +1,363 @@
+revesrse the sentence:
+s=input().split()
+
+d=s[::-1]
+x=""
+for i in d:
+    x=x+i+" "
+print(x)
+
+product of element in the list:
+n=input().split()
+prod=1
+for i in n:
+    prod=prod*int(i)
+print(prod)
+
+
+largest number in list:
+n=input().split()
+a=[]
+for i in n:
+    c=int(i)
+    a.append(c)
+print(max(a))
+    
+
+average of given numbvers:
+n=input()
+n=n.split()
+length=len(n)
+sum=0
+for i in n:
+    a=int(i)
+    sum+=a 
+print(round(sum/length,2))
+
+
+acronyms:
+
+n=input()
+n=n.split()
+c=""
+for i in range(len(n)):
+    d=n[i][0]
+    c=c+d+"."
+f=c.strip(".")
+print(f)
+
+
+grand asssignment:
+prefix suffix:
+
+import re
+str1, str2 = input(), input()
+
+def longestSubstringFinder(string1, string2):
+    
+    list_of_subsets = [str1.replace(str1[:i], '') for i in range(len(str1))]
+
+    intersect = [re.search('^'+slc, str2).group() for slc in list_of_subsets if re.search('^'+slc, str2)]
+
+    if len(intersect) == 0:
+        return 'No overlapping'
+    else:
+        return intersect[0]
+
+print(longestSubstringFinder(str1, str2))
+
+
+remove words:
+def String(s): 
+    str1 = "" 
+    for element in s: 
+        str1 += element 
+    return str1 
+
+
+
+
+def remove(sentence, n):
+    n_words = []
+    words = sentence.split(" ")
+    for word in words:
+        if len(word) != n:
+            n_words.append(word)
+            n_words.append(" ")
+    return String(n_words)
+
+
+a = str(input(""))
+n = int(input(""))
+print(remove(a, n))
+
+shift numbers:
+inputString =input("");
+digits=""
+letters=""
+symbols=""
+
+for letter in inputString:
+    if (letter.isdigit()):
+        digits+=letter
+    elif (letter.isalpha()):
+        letters+= letter
+    else:
+        symbols+= letter
+
+print(letters+digits+symbols)
+
+
+anti diagonal:
+m, n = map(int, input().split())
+matrix = [list(map(int, input().split())) for _ in range(m)]
+
+max_sum = m + n - 2
+for sum in range(max_sum+1):
+    for i in range(sum+1):
+        if i < m and sum - i < n:
+            print(matrix[i][sum - i], end=" ")
+    print()
+
+word count:
+
+def frequency(statement):
+    statement = statement.split()
+    statement2 = []
+
+    for i in statement:
+        if i not in statement2:
+            statement2.append(i)
+
+    for i in range(0, len(statement2)):
+        print(statement2[i]+":",statement.count(statement2[i]))
+
+def main():
+    statement =input()
+    frequency(statement)
+if __name__ == '__main__':
+    main()
+
+
+word count-2:
+def print_char_count(word):
+    word = word.split()
+    unique_chars = set(word)
+    unique_chars.discard(" ")
+    for char in sorted(unique_chars):
+        print("{}: {}".format(char,word.count(char)))
+        
+word = input()
+print_char_count(word)
+
+
+simmple calculator:
+a = input().split()
+if a[1] == "+":
+    a[0] = int(a[0])
+    a[2] = int(a[2])
+    print(a[0]+a[2])
+elif a[1] == "-":
+    a[0] = int(a[0])
+    a[2] = int(a[2])
+    print(a[0]-a[2])
+elif a[1] == "*":
+    a[0] = int(a[0])
+    a[2] = int(a[2])
+    print(a[0]*a[2])
+elif a[1] == "/":
+    a[0] = int(a[0])
+    a[2] = int(a[2])
+    print(a[0]/a[2])
+elif a[1] == "%":
+    a[0] = int(a[0])
+    a[2] = int(a[2])
+    print(a[0]%a[2])
+
+
+tic tac toe gamme:
+def game_win(sai):
+    
+    for r in range(3):
+        if sai[r][0] == sai[r][1] == sai[r][2]:
+            return sai[r][0]
+        
+    for c in range(3):
+        if sai[0][c] == sai[1][c] == sai[2][c]:
+            return sai[0][c]
+
+    if sai[0][0] == sai [1][1] == sai [2][2]:
+        return sai[0][0]
+    
+    if sai[0][2] == sai [1][1] == sai [2][0]:
+        return sai[0][2]
+
+sai = []
+for r in range(3):
+    n = input()
+    sai.append(n.split())
+
+result = game_win(sai)
+if result is None:
+    print('Tie')
+elif result.upper() == 'X':
+    print('Anjali Wins')
+elif result.upper() == 'O':
+    print('Abhinav Wins')
+
+
+
+coding 34:
+
+paring datetime:
+from datetime import datetime
+
+date = input()
+date_string = "%d %b %Y"
+datetime_object = datetime.strptime(date, date_string)
+print(datetime_object)
+
+formatting datetiem:
+from datetime import datetime
+
+dt_format = "%b %d %Y %I:%M%p"
+dt_object = datetime.strptime(input(), dt_format)
+
+output_format = datetime.strftime(dt_object, "%d/%m/%Y %H:%M:%S")
+print(output_format)
+
+
+
+print dates:
+from datetime import datetime, timedelta
+
+date = input()
+date_string = "%d %b %Y"
+today = datetime.strptime(date, date_string)
+
+yesterday = today - timedelta(days=1)
+next_day = today + timedelta(days=1)
+
+print(yesterday)
+print(today)
+print(next_day)
+
+add years:
+from datetime import datetime, timedelta
+
+date_time_string = input()
+n = int(input())
+date_object = datetime.strptime(date_time_string, '%b %d %Y')
+
+d_2 = date_object + timedelta(days=n*365)
+print(d_2)
+
+
+list of dates:
+from datetime import datetime, timedelta
+
+start_dt_string = input()
+end_dt_string = input()
+
+start_dt = datetime.strptime(start_dt_string, '%b %d %Y')
+end_dt = datetime.strptime(end_dt_string, '%b %d %Y')
+
+number_of_days = (end_dt - start_dt).days
+for i in range(number_of_days+1):
+    print(start_dt + timedelta(days=i))
+
+
+
+name of the weekday:
+from datetime import datetime
+
+date = input()
+date_string = "%d %b %Y"
+datetime_object = datetime.strptime(date, date_string)
+result = datetime_object.strftime("%A")
+print(result)
+
+count of mondays:
+from datetime import datetime
+
+year_a, year_b = input().split()
+
+mondays = 0
+months = range(1, 13)
+for year in range(int(year_a), int(year_b)+1):
+    for month in months:
+        date_time_object = datetime(year, month, 1)
+        name_of_weekday = datetime.strftime(date_time_object, "%A")
+        if name_of_weekday == "Monday":
+            mondays += 1
+            
+            
+print(mondays)
+
+
+
+unix timestamp to datetime:
+import datetime
+
+zero = datetime.datetime(1970, 1, 1)
+seconds = datetime.timedelta(seconds=int(input()))
+dt_format = '%Y-%m-%d %H:%M:%S'
+result_time = zero + seconds
+print(result_time.strftime(dt_format))
+
+
+exception:
+try:
+    a, b = input().split()
+    a = int(a)
+    b = int(b)
+    c= a/b
+    print(c)
+except ZeroDivisionError:
+    print("Denominator can't be 0")
+except ValueError:
+    print("Input should be an integer")
+
+
+item:
+
+# Item class should have the following attributes & methods
+#
+# Attributes:
+#   name, price, category
+#
+# Methods:
+#   get_detail: Print the details of the item in the format '{name}@{price}-{category}'
+#
+# If the value of price is less than 1, raise ValueError exception like
+#   "ValueError: Invalid value for price, got {price}"
+
+
+# Implement the Item class appropriately
+class Item:
+    def __init__(self, name, price, category):
+        if price <= 0:
+            raise ValueError("Invalid value for price, got {}".format(price))
+        self.name = name
+        self.price = price
+        self.category = category
+
+    def get_detail(self):
+        return "{}@{}-{}".format(self.name, self.price, self.category)
+
+
+# You need not change any code below.
+# Do not call this function anywhere. It will automatically be called internally during tests.
+def default_test():
+    item = Item(name="Oreo Biscuits", price=30, category="Food")
+    print(item.name)  # prints "Oreo Biscuits"
+    print(item.price)  # prints '30'
+    print(item.category)  # prints "Food"
+    print(item.get_detail())  # prints "Oreo Biscuits@30-Food"
+
+
+
+
+
+
+

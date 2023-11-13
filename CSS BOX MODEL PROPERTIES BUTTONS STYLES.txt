@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <div class="main-heading">Leaf</div>
+    <button class="leaf">Leaf</button>
+    <div class="main-heading">Button Styles</div>
+    <button class="ready">Ready</button>
+    <button class="set">Set</button>
+    <button class="Go">Go</button>
+</body>
+
+</html>
+CSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main-heading {
+    color: black;
+    width:28px;
+    font-size: 40px;
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.button {
+    border-width: 2px;
+    border-color: orange;
+    border-style: dashed;
+    border-radius: 10px;
+    background-color: #ffd0b5;
+}
+.leaf { 
+  width: 100px;
+  height: 80px;
+  color: white;
+  webkit-border-radius: 100px 20px;
+  border-style: solid;
+  background-color: #007854; 
+  border-radius: 120px 10px;
+}
+.button {
+  background-color: #007854; /* Green */
+  border: 10px;
+  color: white;
+  margin: 20px;
+  padding: 25px 52px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+}
+.ready {
+    background-color: #ffd0b5;
+    border-width: 3px;
+    border-style: dashed;
+    color: #841003;
+    border-color: #841003;
+    background-color: #ffd0b5;
+}
+.set {
+    background-color: #fab8d9;
+    border-width: 5px;
+    border-style: dotted;
+    color: #841003;
+    height: 40px;
+    width: 40px;
+    border-radius: 7px;
+    border-color: #5c0b33;
+    background-color: #fab8d9;
+}
+.Go {
+    width: 50px;
+   height: 50px;
+   background: white;
+   -moz-border-radius: 100px;
+   -webkit-border-radius: 100px;
+   border-radius: 100%;
+   border:4px solid #007854;
+}
